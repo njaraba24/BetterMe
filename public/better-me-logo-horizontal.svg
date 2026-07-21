@@ -1,0 +1,15 @@
+<svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- icon -->
+  <g transform="translate(20,20) scale(0.75)">
+    <rect x="0" y="0" width="240" height="240" rx="54" fill="#FBF9F6" stroke="#ECE9E1" stroke-width="2"/>
+    <rect x="68" y="126" width="24" height="50" rx="7" fill="#CFE3DC"/>
+    <rect x="100" y="100" width="24" height="76" rx="7" fill="#8FC3B4"/>
+    <rect x="132" y="72" width="24" height="104" rx="7" fill="#4DAB9A"/>
+    <circle cx="144" cy="58" r="22" fill="#37352F"/>
+    <path d="M134 59 L141 66 L156 47" stroke="#FBF9F6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="220" y="112" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#37352F">Better <tspan fill="#4DAB9A">Me</tspan></text>
+  <text x="222" y="142" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#9B9A97" letter-spacing="0.5">habits · tasks · goals · finance · journal</text>
+</svg>

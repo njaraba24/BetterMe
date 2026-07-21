@@ -1,0 +1,2 @@
+ALTER TABLE public.tasks ADD COLUMN IF NOT EXISTS due_time text, ADD COLUMN IF NOT EXISTS status text NOT NULL DEFAULT 'todo';
+UPDATE public.tasks SET status = CASE WHEN done THEN 'done' ELSE 'todo' END WHERE status = 'todo';
